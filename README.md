@@ -41,7 +41,7 @@ job_recommendation_system/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/job-recommendation-system.git
+   git clone https://github.com/venupriyaa/job-recommendation-system
    cd job-recommendation-system
    ```
 
