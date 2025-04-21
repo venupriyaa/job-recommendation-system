@@ -18,24 +18,7 @@ This application uses deep learning to match resumes with suitable job opportuni
 - **NLTK**: Natural language processing
 - **PyMuPDF**: PDF text extraction
 
-## Project Structure
 
-```
-job_recommendation_system/
-├── requirements.txt       # Project dependencies
-├── app.py                 # Main Streamlit application
-├── data/                  # Data files
-│   └── final_combined_jobs.csv
-├── utils/                 # Utility functions
-│   ├── __init__.py
-│   ├── model_utils.py     # Model creation and prediction functions
-│   └── preprocessing.py   # Text preprocessing functions
-├── models/                # Model files
-│   └── fine-tuned-sbert-job-skill/
-│       └── (model files)
-├── .gitignore
-└── README.md
-```
 
 ## Installation
 
