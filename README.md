@@ -25,6 +25,7 @@ This application uses deep learning to match resumes with suitable job opportuni
    ```
    git clone https://github.com/venupriyaa/job-recommendation-system.git
    cd job-recommendation-system
+   cd resume_job_matcher
    ```
 
 2. Install dependencies:
