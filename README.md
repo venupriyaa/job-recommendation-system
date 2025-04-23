@@ -33,10 +33,6 @@ This application uses deep learning to match resumes with suitable job opportuni
    pip install -r requirements.txt
    ```
 
-3. Place fine-tuned SBERT model in the `models/fine-tuned-sbert-job-skill/` directory
-
-4. Place  job dataset in `data/final_combined_jobs.csv`
-
 ## Running the Application
 
 To start the application, run:
