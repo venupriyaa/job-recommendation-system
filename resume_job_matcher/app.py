@@ -146,9 +146,11 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
+
 # Define paths
-SBERT_MODEL_PATH = "models/fine-tuned-sbert-job-skill"
-JOB_DATA_PATH = "data/final_combined_jobs.csv"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+SBERT_MODEL_PATH = os.path.join(current_dir, "models", "fine-tuned-sbert-job-skill")
+JOB_DATA_PATH = os.path.join(current_dir, "data", "final_combined_jobs.csv")
 
 # Initialize session state variables
 if 'models_loaded' not in st.session_state:
